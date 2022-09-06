@@ -1,9 +1,13 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <b-nav tabs align="center">
+      <b-nav-item><router-link to="/">Main</router-link></b-nav-item>
+      <b-nav-item><router-link to="/about">DrinkIntro</router-link> </b-nav-item>
+      <b-nav-item><router-link to="/kind">Kind</router-link></b-nav-item>
+      <b-nav-item><router-link to="/region">region</router-link></b-nav-item>
+    </b-nav>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
